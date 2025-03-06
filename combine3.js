@@ -5,7 +5,7 @@ function concatenateFields() {
     var field3 = document.querySelector('[name="element_29"]').value;
 
     // Format the concatenated value in the desired format
-    var concatenatedValue = field1 + ' [' + field3 + '] included GI ingredient of ' + field2;
+    var concatenatedValue = field1 + ' (' + field3 + ') included GI ingredient of ' + field2;
 
     // Assign the concatenated value to the target field
     document.querySelector('[name="element_39"]').value = concatenatedValue;
