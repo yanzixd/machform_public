@@ -11,7 +11,7 @@ function concatenateFields() {
     concatenatedValue = concatenatedValue.trim();
 
     // Assign the concatenated value to the target field
-    document.querySelector('[name="element_38"]').value = concatenatedValue;
+    document.querySelector('[name="element_39"]').value = concatenatedValue;
 }
 
 // Call the function on form submission or whenever you want to update the field
